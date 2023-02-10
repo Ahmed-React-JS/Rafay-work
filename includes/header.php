@@ -90,7 +90,7 @@
                             <li><a href="#">Shop</a></li>
                             <li><a href="#">Features</a></li>
                             <li><a href="#">Shortcodes</a></li>
-                            <li><a href="/includes/contact.php">Contact</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                         </ul>
                         <div class="search-Bar">
                             <i class="fa fa-search"></i>
