@@ -84,7 +84,7 @@
                         <ul class="menu">
                             <li><a href="index.php">Home</a></li>
                             <li><a href="#">Pages</a></li>
-                            <li><a href="#">Services</a></li>
+                            <li><a href="services.php">Services</a></li>
                             <li><a href="#">Portfolio</a></li>
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Shop</a></li>
