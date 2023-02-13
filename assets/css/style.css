@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* transition: all .4s ease-in-out; */
 }
 
 *::after, *::before{
@@ -14,6 +13,11 @@ body{
     line-height: 1.2;
 }
 
+::placeholder{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+}
 
 a{
     text-decoration: none;
@@ -140,6 +144,10 @@ i:hover{
 
 .gap-30{
     gap: 30px;
+}
+
+.gap-50{
+    gap: 50px;
 }
 
 .gap-100{
@@ -344,6 +352,7 @@ section > .container > h4{
     margin-bottom: 30px;
     font-family: 'Lato' sans-serif;
     font-weight: 600;
+    text-align: center;
 }
 
 section > .container > h5{
@@ -351,6 +360,12 @@ section > .container > h5{
     color: #9fa4af;
     font-weight: 400;
     margin-bottom: 38px;
+    text-align: center;
+}
+
+section > .container > p{
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 p{
@@ -957,4 +972,110 @@ footer * {
 .bottom-footer-links a.active,
 .bottom-footer-links li:hover a{
     color: #fff;
+}
+
+.tmp-nav{
+    background-color: #f5f6f8;
+    padding: 40px 0 ;
+}
+
+.tmp-nav h1{
+    color: #3b4550;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.tmp-nav ul li{
+    display: inline-block;
+}
+
+.tmp-nav ul li a{
+    font-size: 13px;
+    font-family: 'Open Sans';
+    color: #848994;
+}
+
+.tmp-nav ul li:nth-of-type(1) a{
+    color: var(--clr-accent);
+}
+
+.tmp-nav ul li:nth-of-type(1) a::after{
+    content: ">";
+    margin: 0 10px ;
+    color: #848994;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #848994;
+}
+
+.location i{
+    font-size: 56px;
+    color: var(--clr-accent);
+}
+
+.form-container{
+    width: 761px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.form-container input, .form-container textarea{
+    background-color: #f5f6f8;
+    border: 1px solid #e9eaec;
+    outline: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+}
+
+.form-container textarea{
+    height: 220px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact-info{
+    width: 200px;
+}
+
+.contact-info > div:nth-child(1){
+    margin-bottom: 50px;
+}
+
+.contact-info > div{
+    text-align: left;
+}
+
+.contact-info > div h5{
+    font-size: 14px;
+    margin-bottom: 18px;
+    color: #3b4550;
+}
+
+.contact-info > div .flex{
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.contact-info i{
+    color: #71757f;
+}
+
+.contact-info .flex a{
+    color: #848994;
+}
+
+.contact-info > div:nth-child(2) i{
+    padding: 10px 10px;
+    background-color: #f5f6f8;
+    border-radius: 100%;
+    color: #9fa4af;
+    font-size: 14px;
+}
+
+.business-info p:nth-last-of-type(1){
+    margin-bottom: 30px;
 }

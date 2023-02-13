@@ -82,7 +82,7 @@
                     </a>
                     <div class="flex gap-30 align-items-center">
                         <ul class="menu">
-                            <li><a href="/index.php">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li><a href="#">Pages</a></li>
                             <li><a href="#">Services</a></li>
                             <li><a href="#">Portfolio</a></li>

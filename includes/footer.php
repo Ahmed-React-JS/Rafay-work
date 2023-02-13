@@ -105,7 +105,7 @@
                 </div>
                 <div>
                     <ul class="bottom-footer-links flex">
-                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="index.php" class="active">Home</a></li>
                         <li><a href="#">Pages</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Portfolio</a></li>
@@ -113,7 +113,7 @@
                         <li><a href="#">Shop</a></li>
                         <li><a href="#">Features</a></li>
                         <li><a href="#">Shortcodes</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
             </div>
