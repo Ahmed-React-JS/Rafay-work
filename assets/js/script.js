@@ -1,6 +1,7 @@
 $(document).ready(function () {
     slickSliders();
     Accordian();
+    tabs()
 });
 
 function slickSliders() {
@@ -23,6 +24,26 @@ function slickSliders() {
         Infinity: true,
         arrows: true,
     });
+
+    $(".js-slick-slider-2").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        dots: true,
+        arrows: false,
+        Infinity: true,
+        autoplaySpeed: 2000,
+    });
+
+    $('.js-slick-6').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: false,
+        Infinity: true,
+        arrows: false,
+    })
 }
 
 function Accordian() {
@@ -35,4 +56,19 @@ function Accordian() {
         $this.next().slideDown();
         $parent.siblings().find(".acc-body").slideUp();
     });
+}
+
+
+function tabs() {
+    $('.tab:first').show()
+    $('.tabs ul li:first').addClass('active')
+
+    $(".tabs ul li").click(function(){
+        index = $(this).index()
+        $('.tabs ul li').removeClass('active') 
+        $(this).addClass('active') 
+        $('.tab').hide()
+        $('.tab').eq(index).show()
+
+    })
 }

@@ -1315,3 +1315,160 @@ footer * {
 .services-final-section > .container > h4{
     color: #fff;
 }
+
+
+.about-us-intro .js-slick-slider > div{
+    height: 370px;
+    width: 530px;
+    background-color: #3b4550;
+    border-radius: 4px ;
+}
+
+.about-us-intro .js-slick-slider > div:nth-of-type(2){
+    background-color: #000;
+}
+
+.about-us-intro .js-slick-slider > div:nth-of-type(3){
+    background-color: #51aca7;
+}
+
+.about-us-intro .js-slick-slider + .text-left h5{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about-us-intro .js-slick-slider + .text-left p{
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+.about-us-team{
+    background-color: #f5f6f8;
+}
+
+.about-us-team i{
+    background-color: #fff;
+}
+
+.facts .flex > div h6{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #50a2de;
+}
+
+.facts .flex > div:nth-child(2) h6{
+    color: #50c5de;
+}
+.facts .flex > div:nth-child(3) h6{
+    color: #5fcbcd;
+}
+.facts .flex > div:nth-child(4) h6{
+    color: #5bd4b6;
+}
+
+.facts .flex > div h5{
+    font-size: 14px;
+}
+
+
+.about-us{
+    background-color: #f5f6f8;
+}
+
+.about-us .accordian p{
+    text-align: left;
+}
+
+.about-us .acc-body{
+    padding: 18px 30px;
+}
+
+.about-us .skill-line{
+    margin-bottom: 20px;
+}
+
+
+.tabs ul{
+    display: flex;
+    gap: 3px;
+    justify-content: space-between;
+}
+
+.tabs ul li{
+    /* display: inline-block; */
+    background-color: #fff;
+    font-size: 13px;
+    padding: 15px 25px;
+    border: 1px solid #e9eaec;
+    font-family: 'lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.tabs ul li.active{
+    border-bottom: 1px solid #fff;
+    color: var(--clr-accent);
+}
+
+.tab{
+    border: 1px solid #e9eaec;
+    border-top: none;
+    padding: 30px;
+    background-color: #fff;
+    display: none;
+}
+
+.tab p{
+    text-align: left;
+    font-size: 13px;
+}
+
+
+.about-us-clients .client-msg{
+    padding: 25px 30px;
+    flex-basis: 50%;
+}
+
+.about-us-clients{
+    background-color: #fff;
+}
+
+.about-us-clients .js-slick-slider-2 .client-msg{
+    padding: 30px 45px;
+    height: 160px;
+    text-align: left;
+}
+
+.slide-show{
+    background-color: #f5f6f8;
+    padding: 40px 136px;
+}
+
+
+.slide-show .flex > div{
+    height: 100px;
+    width: 170px;
+    background-color: #9fa4af;
+    border: 1px solid #e9eace;
+    border-radius: 4px;
+}
+
+
+.call-to-action{
+    padding: 60px 0;
+    background-color: var(--clr-accent);
+}
+
+.call-to-action .flex {
+    gap: 130px;
+}
+
+.call-to-action h5{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}

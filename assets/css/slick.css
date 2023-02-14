@@ -159,6 +159,7 @@ ul.slick-dots li.last {
 }
 
 
+
 .our-team .slick-arrow {
     width: 16px;
     height: 11px;
@@ -171,9 +172,25 @@ ul.slick-dots li.last {
 }
 
 .our-team .slick-prev {
-    left: -80px;
+    left: 0;
 }
 
 .our-team .slick-next {
     right: 0;
 }
+
+
+
+.about-us-clients ul.slick-dots li button,
+.our-clients ul.slick-dots li button{
+    padding: 5px;
+    background-color: transparent;
+    border: 2px solid #bbbfc6;
+}
+
+.about-us-clients ul.slick-dots li.slick-active button,
+.our-clients ul.slick-dots li.slick-active button{
+    background-color: var(--clr-accent);
+    padding: 7px;
+    border: none;
+}   
