@@ -1,4 +1,19 @@
-<?php include('includes/header.php'); ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Includes compatibility.php -->
+    <?php include('includes/compatibility.php');?>
+
+    <!-- Includes compatibility.php -->
+    <?php include('includes/style.php');?>
+
+    <title>PSD Final Attempt</title>
+</head>
+
+<body>
+    <!-- header -->
+    <?php include('includes/header.php');?>
 
 
 <div class="tmp-nav">
@@ -286,4 +301,14 @@
 
 </section>
 
-<?php include('includes/footer.php'); ?>
+   <!-- footer -->
+<?php include('includes/footer.php');?>
+
+
+    
+<!-- Scripts Js -->
+<?php include('includes/scripts.php');?>
+
+</body>
+
+</html>
